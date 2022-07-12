@@ -1,0 +1,508 @@
+body{
+  position: relative;
+  width: 1264px;
+  height: 2021px;
+  left: 326px;
+  top: 0px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 246, 251, 0.5833) 25%, #CAF2FA 100%);
+}
+.header_main{
+  position: absolute;
+  width: 348px;
+  height: 50px;
+  left: 785px;
+  top: 34px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+
+  text-align: center;
+
+  color: #223867;
+}
+.section_choose{
+  position: absolute;
+  width: 517px;
+  height: 42px;
+  left: 689px;
+  top: 94px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+
+  text-align: center;
+
+  color: #223867;
+}
+.pacient_adult{
+  position: absolute;
+  width: 162px;
+  height: 50px;
+  left: 560px;
+  top: 179px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #028CA6;
+}
+.pacient_baby{
+  position: absolute;
+  width: 133px;
+  height: 50px;
+  left: 1177px;
+  top: 179px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #028CA6;
+}
+.pacient_adult_img{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 491px;
+  top: 252px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 25px rgba(6, 140, 166, 0.25));
+}
+.pacient_baby_img{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 1094px;
+  top: 252px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 25px rgba(6, 140, 166, 0.25));
+}
+.pacient_adult_info1{
+  position: absolute;
+  width: 548px;
+  height: 57px;
+  left: 384px;
+  top: 595px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 27px;
+  color: #223867;
+}
+.pacient_adult_info1_box{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 578px;
+  height: 88px;
+  left: 363px;
+  top: 580px;
+
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #068CA6;
+  box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+  border-radius: 10px;
+}
+.pacient_adult_info2{
+  position: absolute;
+  width: 519px;
+  height: 105px;
+  left: 384px;
+  top: 717px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 27px;
+  color: #223867;
+}
+.pacient_adult_info2_box{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 578px;
+  height: 149px;
+  left: 363px;
+  top: 699px;
+
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #068CA6;
+  box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+  border-radius: 10px;
+}
+.pacient_adult_info3{
+  position: absolute;
+  width: 534px;
+  height: 100px;
+  left: 384px;
+  top: 897px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 27px;
+  /* or 129% */
+
+
+  color: #223867;
+}
+.pacient_adult_info3_box{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 578px;
+  height: 121px;
+  left: 363px;
+  top: 879px;
+
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #068CA6;
+  box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+  border-radius: 10px;
+}
+.pacient_baby_info1{
+  position: absolute;
+  width: 538px;
+  height: 177px;
+  left: 993px;
+  top: 596px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 27px;
+  /* or 129% */
+
+
+  color: #223867;
+}
+.pacient_baby_info1_box{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 578px;
+  height: 222px;
+  left: 977px;
+  top: 580px;
+
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #068CA6;
+  box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+  border-radius: 10px;
+}
+.pacient_baby_info2{
+  position: absolute;
+  width: 557px;
+  height: 140px;
+  left: 993px;
+  top: 841px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 27px;
+  /* or 129% */
+
+
+  color: #223867;
+}
+.pacient_baby_info2_box{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 578px;
+  height: 171px;
+  left: 977px;
+  top: 828px;
+
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #068CA6;
+  box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+  border-radius: 10px;
+}
+.info{
+  position: absolute;
+  width: 886px;
+  height: 42px;
+  left: 371px;
+  top: 1089px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #2A477D;
+}
+.info a{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #068CA6;
+  text-decoration: none;
+}
+.photo_info1{
+  position: absolute;
+  width: 115px;
+  height: 117px;
+  left: 897px;
+  top: 1242px;
+
+  background: url(Рисунок2.png);
+}
+.photo_info1_text{
+  position: absolute;
+  width: 80px;
+  height: 26px;
+  left: 915px;
+  top: 1213px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+  text-align: center;
+
+  color: #223867;
+}
+.photo_info2{
+  position: absolute;
+  width: 111px;
+  height: 107px;
+  left: 695px;
+  top: 1326px;
+
+  background: url(Рисунок4.png);
+}
+.photo_info2_text{
+  position: absolute;
+  width: 162px;
+  height: 21px;
+  left: 534px;
+  top: 1375px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+
+  color: #223867;
+}
+.photo_info3{
+  position: absolute;
+  width: 111px;
+  height: 106px;
+  left: 633px;
+  top: 1502px;
+
+  background: url(Рисунок5.png);
+}
+.photo_info3_text{
+  position: absolute;
+  width: 162px;
+  height: 21px;
+  left: 484px;
+  top: 1550px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+
+  color: #223867;
+}
+.photo_info4{
+  position: absolute;
+  width: 110px;
+  height: 106px;
+  left: 695px;
+  top: 1706px;
+
+  background: url(Рисунок6.png);
+}
+.photo_info4_text{
+  position: absolute;
+  width: 162px;
+  height: 42px;
+  left: 481px;
+  top: 1733px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+  text-align: right;
+
+  color: #223867;
+}
+.photo_info5{
+  position: absolute;
+  width: 110px;
+  height: 106px;
+  left: 900px;
+  top: 1774px;
+
+  background: url(Рисунок7.png);
+}
+.photo_info5_text{
+  position: absolute;
+  width: 239px;
+  height: 42px;
+  left: 835px;
+  top: 1910px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+  text-align: center;
+
+  color: #223867;
+}
+.photo_info6{
+  position: absolute;
+  width: 110px;
+  height: 106px;
+  left: 1097px;
+  top: 1706px;
+
+  background: url(Рисунок8.png);
+}
+.photo_info6_text{
+  position: absolute;
+  width: 187px;
+  height: 83px;
+  left: 1247px;
+  top: 1712px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+
+  color: #223867;
+}
+.photo_info7{
+  position: absolute;
+  width: 110px;
+  height: 107px;
+  left: 1152px;
+  top: 1501px;
+
+  background: url(Рисунок9.png);
+}
+.photo_info7_text{
+  position: absolute;
+  width: 187px;
+  height: 45px;
+  left: 1297px;
+  top: 1538px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+
+  color: #223867;
+}
+.photo_info8{
+  position: absolute;
+  width: 130px;
+  height: 131px;
+  left: 1097px;
+  top: 1314px;
+
+  background: url(Рисунок10.png);
+}
+.photo_info8_text{
+  position: absolute;
+  width: 242px;
+  height: 66px;
+  left: 1247px;
+  top: 1353px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+
+  color: #223867;
+}
+.photo_info9{
+  position: absolute;
+  width: 315px;
+  height: 315px;
+  left: 800px;
+  top: 1410px;
+  border-radius: 50%;
+
+  opacity: 0.4;
+}
+.photo_info9_text{
+  position: absolute;
+  width: 162px;
+  height: 40px;
+  left: 877px;
+  top: 1635px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #068CA6;
+}
+.container > .description {
+   display:none;
+ }
+.container:hover > .description {
+   display: block;
+ }
